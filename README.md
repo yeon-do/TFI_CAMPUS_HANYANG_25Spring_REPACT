@@ -158,11 +158,15 @@ These issues are common across different types of waste, not just paper cartons.
 |   ├── images
 |   ├── item            
 │   └── startscene
-├── assets/
-│   ├── fonts
-|   ├── images
-|   ├── item            
-│   └── startscene        
-├── index.html                 # SQLite database file
-├── netlify.tomi               # SQLite Browser project file
+├── js/                      # implementation of game screens
+│   ├── BootScene.js
+|   ├── DexScene.js
+|   ├── GameScene.js
+|   ├── HowToPlayScene.js            
+|   ├── LoginInputScene.js            
+|   ├── LoginScene.js
+|   ├── MyPageScene.js         
+│   └── SignupScene.js         
+├── index.html                 
+├── netlify.tomi             # service for deployment and hosting
 ```
